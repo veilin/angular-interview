@@ -1,0 +1,16 @@
+<div *ngIf="quake">
+  <h2>{{quake.properties.title | uppercase}}</h2>
+  <div><span>Magnitude: </span>{{quake.properties.mag}}</div>
+  <div>
+    <label>Alert: {{quake.properties.alert}}</label>
+  </div>
+  <div>
+    <label>Status: {{quake.properties.status}}</label>
+  </div>
+  <div>
+    <label>Time: {{quake.properties.time}}</label>
+  </div>
+  <div>
+    <label>Felt: {{quake.properties.felt}}</label>
+  </div>
+</div>

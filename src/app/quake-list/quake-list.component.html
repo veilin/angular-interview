@@ -1,0 +1,12 @@
+<div class="card-container">
+  <h2>Quakes</h2>
+  <ul class="quakes">
+    <li *ngFor="let quake of quakes?.features;">
+      <div class="card card-small">
+        <span
+        (click)="selectQuake"
+        > {{quake.properties.title}}</span>
+      </div>
+    </li>
+  </ul>
+</div>
