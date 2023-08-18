@@ -123,5 +123,8 @@
         }
       }
     }},
-  "defaultProject": "quake"
+  "defaultProject": "quake",
+  "cli": {
+    "analytics": "67d05e97-09ab-439f-a635-45b7a4dcb8da"
+  }
 }
