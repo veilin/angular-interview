@@ -4,8 +4,8 @@ Api documentation is available here: https://earthquake.usgs.gov/fdsnws/event/1/
 
 ## Tasks
 
-1. Order the list by Date (or Magnitude)
-2. The list of earthquakes are displayed, and a detail view is defined. Please hook them up.
+1. The list of earthquakes are displayed, and a detail view is defined. Please hook them up.
+2. Order the list by Date (or Magnitude)
 3. Time is currently not displaying correctly, please format as standard ISO date format. 
 4. How would you refactor / improve the current code? Show us.
 5. Currently, while loading the list of earthquakes from the backend, the list is empty. Please create a placeholder / loading indicator.
