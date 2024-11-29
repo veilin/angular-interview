@@ -14,7 +14,7 @@ export class AppComponent {
   quake: Quake;
 
   constructor(httpClient: HttpClient) {
-    httpClient.get('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-09-01&endtime=2022-09-31&minmagnitude=5')
+    httpClient.get('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-09-01&endtime=2024-09-31&minmagnitude=5')
       .pipe(delay(1000))
       .subscribe((quakes: Quakes) => {
           this.data = quakes;
